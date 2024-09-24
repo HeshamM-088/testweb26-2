@@ -12,6 +12,7 @@ const Home = () => {
     <div className='flex flex-col justify-center items-center pt-4 gap-[4em]'>
       <h1>Home</h1>
       <h1>User details</h1>
+      <h1>Mohamed</h1>
       {users.map(({ name, age, id }, index) => (
         <div
           key={index}
